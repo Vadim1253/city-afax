@@ -1,0 +1,17 @@
+CREATE DATABASE ci;
+
+CREATE TABLE `city` (
+ `id` int(11) NOT NULL AUTO_INCREMENT,
+ `name` text NOT NULL,
+ PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=389 DEFAULT CHARSET=utf8
+
+INSERT INTO `city` (`id`, `name`) VALUES
+(99, 'Москва'),
+(100, 'Казань'),
+(383, 'Луганск'),
+(384, 'Мурманск'),
+(385, 'Омск'),
+(386, 'Томск'),
+(387, 'Тула'),
+(388, 'Самара');
